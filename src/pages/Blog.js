@@ -8,33 +8,33 @@ const Blog = () => {
       <Meta title="Blogs" />
       <BreadCrum title="Blogs" />
       <Container class1="blog-wrapper home-wrapper-2 py-5">
-      <div className="row">
-            <div className="col-3">
-              <div className="filter-card mb-3">
-                <h3 className="filter-title">Shop By Categories</h3>
-                <div>
-                  <ul className="ps-0">
-                    <li>Watch</li>
-                    <li>Tv</li>
-                    <li>Camera</li>
-                    <li>Laptop</li>
-                  </ul>
-                </div>
+        <div className="row">
+          <div className="col-3">
+            <div className="filter-card mb-3">
+              <h3 className="filter-title">Shop By Categories</h3>
+              <div>
+                <ul className="ps-0">
+                  <li>Watch</li>
+                  <li>Tv</li>
+                  <li>Camera</li>
+                  <li>Laptop</li>
+                </ul>
               </div>
             </div>
-            <div className="col-9">
-                <div className="row">
-                    <BlogCard />
-                    <BlogCard />
-                    <BlogCard />
-                    <BlogCard />
-                    <BlogCard />
-                    <BlogCard />
-                </div>
+          </div>
+          <div className="col-9">
+            <div className="row">
+              <BlogCard />
+
+              <BlogCard />
+              <BlogCard />
+              <BlogCard />
+              <BlogCard />
+              <BlogCard />
             </div>
           </div>
+        </div>
       </Container>
-     
     </>
   );
 };

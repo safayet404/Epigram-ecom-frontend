@@ -1,4 +1,5 @@
 import BreadCrum from "../components/BreadCrum";
+import Container from "../components/Container";
 
 import Compare from "../components/Compare";
 import Meta from "../components/Meta";
@@ -9,14 +10,14 @@ const CompareProducts = () => {
     <>
       <BreadCrum title="Compare Product" />
       <Meta title="Compare Product" />
-      <div className="compare-product-wrapper py-5 home-wrapper-2">
-        <div className="container-xxxl">
+      <Container class1="compare-product-wrapper py-5 home-wrapper-2">
+       
           <div className="row d-flex">
            <Compare/>
            <Compare/>
-          </div>
+        
         </div>
-      </div>
+      </Container>
     </>
   );
 };

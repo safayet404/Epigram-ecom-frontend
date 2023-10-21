@@ -9,7 +9,7 @@ const ResetPassword = () => {
       <BreadCrum title="Reset Password" />
       <Meta title="Reset Password" />
       <Container class1="reset-password-wrapper py-5 home-wrapper-2">
-        <div className="container-xxxl">
+       
           <div className="row">
             <div className="col-12">
               <div className="reset-password-card">
@@ -42,7 +42,7 @@ const ResetPassword = () => {
               </div>
             </div>
           </div>
-        </div>
+      
       </Container>
     </>
   );

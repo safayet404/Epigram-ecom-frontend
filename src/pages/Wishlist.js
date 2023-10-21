@@ -1,4 +1,3 @@
-
 import BreadCrum from "../components/BreadCrum";
 import Meta from "../components/Meta";
 import WishlistComp from "../components/WishlistComp";
@@ -9,14 +8,13 @@ const Wishlist = () => {
       <BreadCrum title="Wishlist" />
       <Meta title="Wishlist" />
       <Container>
-      <div className="row">
+        <div className="row">
           <WishlistComp />
           <WishlistComp />
           <WishlistComp />
           <WishlistComp />
         </div>
       </Container>
-  
     </>
   );
 };

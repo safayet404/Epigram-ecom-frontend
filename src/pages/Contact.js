@@ -1,4 +1,5 @@
 import BreadCrum from "../components/BreadCrum";
+import Container from "../components/Container";
 import Meta from "../components/Meta";
 
 import { FcHome,FcCellPhone,FcInfo } from "react-icons/fc";
@@ -9,8 +10,8 @@ const Contact = () => {
       <Meta title="Contact Us" />
       <BreadCrum title="Contact Us" />
 
-      <div className="contact-wrapper home-wrapper-2 py-5">
-        <div className="container-xxxl">
+      <div>
+        <Container class1="contact-wrapper home-wrapper-2 py-5">
           <div className="row">
             <div className="col-12">
               <iframe
@@ -108,7 +109,7 @@ const Contact = () => {
               </div>
             </div>
           </div>
-        </div>
+        </Container>
       </div>
     </>
   );

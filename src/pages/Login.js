@@ -1,4 +1,5 @@
 import BreadCrum from "../components/BreadCrum";
+import Container from "../components/Container";
 import Meta from "../components/Meta";
 import { Link } from "react-router-dom";
 
@@ -7,9 +8,9 @@ const Login = () => {
     <>
       <BreadCrum title="Wishlist" />
       <Meta title="Wishlist" />
-      <div className="login-wrapper py-5 home-wrapper-2">
-       <div className="container-xxxl">
-       <div className="row">
+
+      <Container class1="login-wrapper py-5 home-wrapper-2">
+        <div className="row">
           <div className="col-12">
             <div className="login-card">
               <h3 className="text-center">Login</h3>
@@ -43,8 +44,7 @@ const Login = () => {
             </div>
           </div>
         </div>
-       </div>
-      </div>
+      </Container>
     </>
   );
 };

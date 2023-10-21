@@ -1,13 +1,14 @@
 import BreadCrum from "../components/BreadCrum";
 import Meta from "../components/Meta";
+import Container from "../components/Container";
 import { Link } from "react-router-dom";
 const ForgetPassword = () => {
   return (
     <>
       <BreadCrum title="Forget Password" />
       <Meta title="Forget Password" />
-      <div className="forget-password-wrapper py-5 home-wrapper-2">
-        <div className="container-xxxl">
+     
+        <Container class1="forget-password-wrapper py-5 home-wrapper-2">
           <div className="row">
             <div className="col-12">
               <div className="forget-password-card">
@@ -33,8 +34,8 @@ const ForgetPassword = () => {
               </div>
             </div>
           </div>
-        </div>
-      </div>
+        </Container>
+    
     </>
   );
 };

@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter,Route,Routes} from "react-router-dom"
+import {HashRouter,Route,Routes} from "react-router-dom"
 import './App.css';
 import Layout from './components/Layout';
 import Home from './pages/Home';
@@ -25,7 +25,7 @@ import Checkout from './pages/Checkout';
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />}></Route>
@@ -49,7 +49,7 @@ function App() {
             <Route path="/refund" element={<RefundPolicy />}></Route>
           </Route>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
