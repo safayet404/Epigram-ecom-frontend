@@ -1,0 +1,340 @@
+/* Home Page CSS*/
+
+.main-banner-content {
+    top: 15%;
+    left: 5%;
+  }
+  
+  .main-banner-content h4 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--color-bf4800);
+    margin: 0 0 12px;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+  }
+  
+  .main-banner-content h5 {
+    font-size: 42px;
+    line-height: 54px;
+    letter-spacing: -2px;
+    text-transform: none;
+  }
+  
+  .main-banner-content p {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.4;
+    color: var(--color-131921);
+  }
+  
+  .small-banner-content h4 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--color-bf4800);
+    margin: 0 0 12px;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+  }
+  
+  .small-banner-content h5 {
+    font-size: 22px;
+    line-height: 34px;
+    letter-spacing: -2px;
+    text-transform: none;
+  }
+  
+  .small-banner-content p {
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.4;
+    color: var(--color-131921);
+  }
+  
+  .small-banner-content {
+    top: 15%;
+    left: 5%;
+  }
+  
+  .small-banner {
+    width: 49%;
+  }
+  
+  /* Home Wraper - 2 CSS */
+  .home-wrapper-2 {
+    background-color: var(--color-f5f5f7);
+  }
+  
+  .gap-100 {
+    gap: 100px;
+  }
+  
+  /* Categories Section CSS */
+  
+  .categories {
+    background-color: white;
+    box-shadow: 0 0 10px #0000001a;
+    padding: 15px;
+  }
+  
+  .categories>div {
+    width: 25%;
+    padding: 10px 10px 10px 20px;
+  }
+  
+  .categories>div>div {
+    width: 60%;
+  }
+  
+  .categories>div:nth-child(1),
+  .categories>div:nth-child(2),
+  .categories>div:nth-child(3),
+  .categories>div:nth-child(4) {
+    border-bottom: 1px solid var(--color-ededed);
+  }
+  
+  .categories>div:nth-child(1),
+  .categories>div:nth-child(2),
+  .categories>div:nth-child(3) {
+    border-right: 1px solid var(--color-ededed);
+  }
+  
+  .categories>div:nth-child(5),
+  .categories>div:nth-child(6),
+  .categories>div:nth-child(7) {
+    border-right: 1px solid var(--color-ededed);
+  }
+  
+  .card-wrapper {
+    background-color: white;
+    box-shadow: 0 0 10px #0000001a;
+    padding: 15px;
+  }
+  
+  /* Blog Part CSS */
+  
+  .blog-card {
+    background-color: white;
+  
+    border-radius: 10px;
+  
+  }
+  
+  .blog-card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .blog-content {
+    padding: 15px;
+  }
+  
+  .blog-content p.date {
+    font-size: 13px !important;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: var(--color-777777);
+    padding: 0;
+  
+  }
+  
+  .blog-content h5 {
+    font-size: 18px;
+    color: var(--color-131921);
+  }
+  
+  .blog-content p.desc {
+    font-size: 13px;
+    line-height: 22px;
+    color: var(--color-777777);
+  
+  }
+  
+  .single-blog-card img{
+    display: block;
+    margin: auto;
+    
+  }
+  .single-blog-card p{
+    font-size: 13px;
+    color: var(--color-777777);
+    
+  }
+  .single-blog-card a{
+    font-size: 14px;
+    color: var(--color-777777);
+  }
+  
+  .blog-comment-card{
+    background-color: white;
+    padding: 15px 30px;
+    border-radius: 7px;
+  }
+  .blog-comment-card  .form-control{
+    background-color: var(--color-f5f5f7);
+    border-radius: 10px;
+   padding: 10px;
+   border-color: transparent;
+   margin-top: 10px;
+  
+  }
+  
+  .section-heading {
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+  
+  /* Featured Product Card CSS */
+  
+  .product-card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 10px;
+    width: 100%;
+   
+  
+  }
+  .product-card p.description{
+    font-size: 13px;
+    color: var(--color-777777);
+  }
+  .product-card:hover .action-bar {
+    right: 20px;
+    margin-top: 35px !important;
+  }
+  
+  .product-card .product-details h6 {
+    color: var(--color-bf4800);
+    font-size: 13px;
+  
+  }
+  
+  .product-card .product-details h5 {
+    color: var(--color-1c1c1b);
+    font-size: 15px;
+  }
+  
+  .product-card .product-details p.price {
+    color: var(--color-1c1c1b);
+    font-size: 16px;
+  }
+  
+  .product-card .product-image {
+    height: 270px;
+  
+  }
+  
+  .product-card .product-image img {
+    height: 250px !important;
+    width: 250px !important;
+    padding: 40px;
+    align-items: center !important;
+    object-fit: contain;
+  
+  }
+  
+  .product-card .product-image>img:last-child {
+    display: none;
+  }
+  
+  .product-card:hover .product-image>img:nth-child(1) {
+    display: none;
+  }
+  
+  .product-card:hover .product-image>img:last-child {
+    display: block;
+  
+  
+  }
+  
+  .action-bar {
+    top: 5%;
+    right: -20px;
+    transition: 0.3s;
+    margin-top: 35px !important;
+  
+  }
+  
+  .action-bar-link {
+    color: #131921 !important;
+  
+  }
+  
+  .wishlist-icon {
+    top: 3%;
+    right: 20px !important;
+  
+  }
+  
+  /*Special Product Card CSS */
+  .special-product-card{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+   
+  }
+  .special-product-card img {
+    width: 140px !important;
+    height: 140px !important;
+  }
+  
+  /*Popular Product Card CSS */
+  
+  .famous-card{
+    
+    
+    
+    border-radius: 30px !important;
+   
+  }
+  
+  .famous-card img {
+    width: 100%;
+    height: 100% !important;
+    border-radius: 15px;
+  
+  }
+  
+  .famous-card .famous-content {
+    top: 10% !important;
+    left: 10% !important;
+    color: white;
+  }
+  
+  .famous-card .famous-content h5 {
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-bottom: 7px;
+    color: white;
+  }
+  .famous-card .famous-content h2 {
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: 500;
+  
+    color: white;
+  }
+  .famous-card .famous-content p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 100;
+   
+    color: white;
+  }
+
+  .categories img{
+    height : 130px;
+    width: 130px;
+  }
+
+
+

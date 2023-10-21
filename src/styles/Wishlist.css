@@ -1,0 +1,37 @@
+.wishlist-product-card {
+    padding: 20px 15px;
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+  .wishlist-product-card .cross {
+    top: 15px;
+    right: 15px;
+  
+    padding: 3px;
+    cursor: pointer;
+  }
+  
+  .wishlist-product-details h5.title {
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 500;
+    color: var(--color-1c1c1b);
+  }
+  
+  .wishlist-product-details h6.price {
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 600;
+  
+  }
+  
+  .wishlist-card-image img {
+    margin: auto;
+    display: block;
+  }
+  
+  .wishlist-product-card .wishlist-product-details {
+    padding: 20px 0px;
+    border-top: 1px solid var(--color-f5f5f7);
+  }

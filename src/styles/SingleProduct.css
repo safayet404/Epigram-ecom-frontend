@@ -1,0 +1,138 @@
+.reviews-wrapper {
+    background-color: white;
+    padding: 30px;
+  }
+  
+  .review-head {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .review-head h4 {
+    font-size: 18px;
+    color: #1c1c1b;
+  }
+  
+  .review-head p {
+    font-size: 14px;
+    color: #777777;
+  }
+  
+  .review-form h5 {
+    color: var(--color-777777);
+  }
+  
+  .review-form form {
+    color: var(--color-777777);
+  }
+  
+  .review-form form .form-label {
+    font-size: 14px;
+  }
+  
+  .review-form form .form-control {
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 10px;
+  
+  }
+  
+  .review-form form .form-control:focus {
+    border: .1px solid;
+  
+  }
+  
+  .review:not(:last-child) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .review p {
+    font-size: 14px;
+    color: var(--color-777777);
+  }
+  
+  .main-product-image {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+  .main-product-image>div {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .main-product-image img {
+    width: 100% !important;
+    height: 500px !important;
+    object-fit: cover;
+  }
+  
+  
+  .other-product-image {
+    background-color: white;
+  
+    padding: 20px;
+  }
+  
+  .other-product-image>div {
+    padding: 15px;
+    width: 48%;
+   
+  
+  }
+  
+  .main-product-details {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+  .border-bottom {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  
+  }
+  .main-product-details h3.title{
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--color-1c1c1b);
+    margin-bottom: 10px;
+  }
+  .main-product-details p.price{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+  }
+  .main-product-details a.review-btn{
+    color: var(--color-777777);
+    font-size: 13px;
+  }
+  
+  .product-heading {
+    font-size: 16px;
+    color: var(--color-1c1c1b);
+    margin-bottom: 0px;
+  }
+  .product-data{
+    font-size: 13px;
+    color: var(--color-777777);
+    margin-bottom: 0px;
+  }
+  
+  .cart-btn ,
+  .buy-btn{
+    font-size: 14px;
+    color: var(--color-777777);
+  }
+  
+  .status{
+    font-size: 16px !important;
+    
+    color: var(--color-1c1c1b);
+    
+    
+  }
+  .accordion-details {
+    font-size: 14px !important;
+    color: var(--color-777777);
+  }
